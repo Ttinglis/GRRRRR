@@ -54,7 +54,14 @@ The wireframe for the main page contains a title, a navigation bar, two input fi
 
 The wireframes have been created in a Draw.IO file. &nbsp;The images are imported into this report via the following link:
 
-! [Main screen](Wireframes/Main Screen.png)
+#### <span style="font-size:15pt; color:salmon"> Main Screen </span>
+![Main screen](Wireframes/Main-Screen.png "Main/Home Screen")
+#### <span style="font-size:15pt; color:salmon"> Pop Up Window with more detailed weather information </span>
+![More Details](Wireframes/More-Details-Screen.png "Pop Up Window for More Weather Details") 
+#### <span style="font-size:15pt; color:salmon"> Help Screen </span>
+![Help Screen](Wireframes/help-screen.png "Help Screen")
+#### <span style="font-size:15pt; color:salmon"> Resources Screen </span>
+![Resource Screen](Wireframes/resource-screen.png "Resouce Screen")
 
 <br>
 
