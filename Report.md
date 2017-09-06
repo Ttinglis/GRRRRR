@@ -2,13 +2,13 @@
 ### GUI Programming Assignment 2 - Milestone 1 By Johnny Kingi, Taylor Inglis, Olena Skeptor and Stephen Hewlett
 <br>
 
-<span style="font-size:15pt; color:cyan"> Introduction </span>
+<span style="font-size:17pt; font-weight: bold; color:cyan"> Introduction </span>
 
 This report covers the steps taken by our group to plan the development of an API (Application Programming Interface) that associates live weather data with cities located using Google Maps data. &nbsp;Team roles, online resources, wireframe representations, and the 'tools' or software used in developing the API, are all discussed.
 
 <br>
 
-<span style="font-size:15pt; color:cyan"> Team Roles and Tasks </span>
+<span style="font-size:17pt; font-weight: bold; color:cyan"> Team Roles and Tasks </span>
 
 The team leader for Group 2 is Johnny Kingi. &nbsp;Taylor Inglis, Olena Skeptor and Stephen Hewlett are the other members of the Group.
 
@@ -20,7 +20,7 @@ Taylor and Johnny will continue doing research on API's. &nbsp;All team members 
 
 <br>
 
-<span style="font-size:15pt; color:cyan"> Resources </span>
+<span style="font-size:17pt; font-weight: bold; color:cyan"> Resources </span>
 
 A number of online resources will be utilized in the operation of our app.
 
@@ -46,7 +46,7 @@ https://www.programmableweb.com/
 
 <br>
 
-<span style="font-size:15pt; color:cyan"> Wireframes </span>
+<span style="font-size:17pt; font-weight: bold; color:cyan"> Wireframes </span>
 
 The team agreed on 4 wireframes - a main page (or default page), one for resources, one for Help information, and one for Pop-Up information.
 
@@ -67,7 +67,7 @@ We aim to keep the API simple and easy  for the user, requiring only a handful o
 
 <br>
 
-<span style="font-size:15pt; color:salmon"> Tools </span>
+<span style="font-size:17pt; font-weight: bold; color:cyan"> Tools </span>
 
 To assist our Group with this project, we are using the following tools:
 * Slack for communication
@@ -82,6 +82,6 @@ Another tool we discussed and may yet utilize is Trello. &nbsp;Olena, who uses t
 
 <br>
 
-<span style="font-size:15pt; color:cyan"> Conclusion </span>
+<span style="font-size:17pt; font-weight: bold; color:cyan"> Conclusion </span>
 
 Milestone 1 has provided the group with a constructive and stimulating process for collating our ideas and planning how to devise an API. &nbsp;Having completed the groundwork, we look forward to the challenge of turning our plans into reality.
