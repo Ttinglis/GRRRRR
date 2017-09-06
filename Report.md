@@ -54,7 +54,7 @@ The wireframe for the main page contains a title, a navigation bar, two input fi
 
 The wireframes have been created in a Draw.IO file. &nbsp;The images are imported into this report via the following link:
 
-!(Link goes here)
+! (Wireframes/Main Screen.png "Main/Home Screen")
 
 <br>
 
