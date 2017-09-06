@@ -59,9 +59,9 @@ The wireframes have been created in a Draw.IO file. &nbsp;The images are importe
 #### <span style="font-size:15pt; color:salmon"> Pop Up Window with more detailed weather information </span>
 ![More Details](Wireframes/More-Details-Screen.png "Pop Up Window for More Weather Details") 
 #### <span style="font-size:15pt; color:salmon"> Help Screen </span>
-![Help Screen](Wireframes/help-screen.png "Help Screen")
+![Help Screen](Wireframes/Help-Screen.png "Help Screen")
 #### <span style="font-size:15pt; color:salmon"> Resources Screen </span>
-![Resource Screen](Wireframes/resource-screen.png "Resouce Screen")
+![Resource Screen](Wireframes/Resource-Screen.png "Resouce Screen")
 
 <br>
 
