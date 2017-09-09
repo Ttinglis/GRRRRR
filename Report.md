@@ -50,7 +50,7 @@ https://www.programmableweb.com/
 
 The team agreed on 4 wireframes - a main page (or default page), one for resources, one for Help information, and one for Pop-Up information.
 
-The wireframe for the main page contains a title, a navigation bar, two input fields for the user, and a submit button. &nbsp;There is also a Help button in the top right hand corner, and an information icon in the bottom left hand corner. &nbsp;That will lead to the resources used for creating the running the API.
+The wireframe for the main page contains a title, a navigation bar, two input fields for the user, and a submit button. &nbsp;There is also a Help button in the top right hand corner, and an information icon in the bottom left hand corner. &nbsp;That will lead to the resources used for creating and running the API.
 
 The wireframes were created in a Draw.IO file. &nbsp;They are displayed below:
 
@@ -63,7 +63,7 @@ The wireframes were created in a Draw.IO file. &nbsp;They are displayed below:
 #### <span style="font-size:15pt; color:salmon"> Resources Screen </span>
 ![Resource Screen](Wireframes/Resource-Screen.png "Resouce Screen")
 
-We aim to keep the API simple and easy  for the user, requiring only a handful of keystrokes to enter a city name followed by one click data retrieval. &nbsp;If more information is wanted then one more click will provide a list of resources, or further information about the city.
+We aim to keep the API simple and easy for the user, requiring only a handful of keystrokes to enter a city name followed by one click data retrieval. &nbsp;If more information is wanted then one more click will provide a list of resources, or further information about the city or the weather.
 
 <br>
 
