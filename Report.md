@@ -50,7 +50,13 @@ https://www.programmableweb.com/
 
 The team agreed on 4 wireframes - a main page (or default page), one for resources, one for Help information, and one for Pop-Up information.
 
-The wireframe for the main page contains a title, a navigation bar, two input fields for the user, and a submit button. &nbsp;The navigation bar on the left will contain 3 buttons which link to a home page, information page and a help page. &nbsp;That information page will contain the resources used for creating and running the API.
+The wireframe for the main page features:
+* A navigation bar
+* Two input fields for the user
+* A submit button
+* Two containers displaying api data
+* Button(s) to display a popup window containing additional city information
+&nbsp;The navigation bar on the left will contain 3 buttons which link to a home page, information page and a help page. &nbsp;The information page will contain the resources used for creating and running the API and the help page will feature information on how to use the app. A pop up window will be used to dipslay further information about the city.
 
 The wireframes were created in a Draw.IO file. &nbsp;They are displayed below:
 
