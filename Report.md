@@ -56,7 +56,8 @@ The wireframe for the main page features:
 * A submit button
 * Two containers displaying api data
 * Button(s) to display a popup window containing additional city information
-&nbsp;The navigation bar on the left will contain 3 buttons which link to a home page, information page and a help page. &nbsp;The information page will contain the resources used for creating and running the API and the help page will feature information on how to use the app. A pop up window will be used to dipslay further information about the city.
+
+The navigation bar on the left will contain 3 buttons which link to a home page, information page and a help page. &nbsp;The information page will contain the resources used for creating and running the API and the help page will feature information on how to use the app. A pop up window will be used to dipslay further information about the city.
 
 The wireframes were created in a Draw.IO file. &nbsp;They are displayed below:
 
