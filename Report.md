@@ -50,7 +50,7 @@ https://www.programmableweb.com/
 
 The team agreed on 4 wireframes - a main page (or default page), one for resources, one for Help information, and one for Pop-Up information.
 
-The wireframe for the main page contains a title, a navigation bar, two input fields for the user, and a submit button. &nbsp;There is also a Help button in the top right hand corner, and an information icon in the bottom left hand corner. &nbsp;That will lead to the resources used for creating and running the API.
+The wireframe for the main page contains a title, a navigation bar, two input fields for the user, and a submit button. &nbsp;The navigation bar on the left will contain 3 buttons which link to a home page, information page and a help page. &nbsp;That information page will contain the resources used for creating and running the API.
 
 The wireframes were created in a Draw.IO file. &nbsp;They are displayed below:
 
