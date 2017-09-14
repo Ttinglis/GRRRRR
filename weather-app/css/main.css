@@ -1,0 +1,120 @@
+/*******************************/
+/* The side navigation menu    */
+/* * * * * * * * * * * * * * * */
+/* Student name: Olena Spektor */
+/*******************************/
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #404040;; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 35px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+    padding: 6px 8px 8px 10px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #b3b3b3;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -11px;
+    right: 0px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: -8px;
+}
+
+#navicon {
+    color: #404040;;
+}
+
+
+
+
+
+/******************************/
+/* Main screen                */
+/* * * * * * * * * * * * * * * /
+/* Student name: Johnny Kingi */
+/******************************/
+
+#current-location {
+    width: 49%;
+    float: left;
+}
+
+#chosen-location {
+    width: 49%;
+    float: right;
+}
+
+h1 {
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+
+/******************************/
+/* More Details Page          */
+/* * * * * * * * * * * * * * * /
+/* Student name:              */
+/******************************/
+
+#table {
+    margin-left: -4px;   
+}
+
+td {
+    width: 130px;
+}
+
+tr {
+    height: 25px;
+}
+
+
+
+
+/******************************/
+/* Help Page                  */
+/* * * * * * * * * * * * * * * /
+/* Student name:              */
+/******************************/
+
+#help-text {
+    margin-left: -24px;  
+}
+
+
+
+
+/******************************/
+/* Resources Page          */
+/* * * * * * * * * * * * * * * /
+/* Student name:              */
+/******************************/
+
+#resources-text {
+    margin-left: -24px;    
+}
