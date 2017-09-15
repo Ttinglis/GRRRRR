@@ -22,7 +22,7 @@ function initAutocomplete(latitude,longitude) {
   searchBox.addListener('places_changed', function() {
     var places = searchBox.getPlaces();
 
-    window.alert('latttitude:  ' + lattitude + '    longitude:  ' + longitude);
+    //window.alert('latttitude:  ' + lattitude + '    longitude:  ' + longitude);
 
     if (places.length == 0) {
       return;
