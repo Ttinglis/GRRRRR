@@ -74,6 +74,12 @@ h1 {
     margin-bottom: 40px;
 }
 
+#map,#map2 {
+    position:relative;
+    height: 200px;
+    width: 90%;
+    margin-top: 20px;
+
 
 /******************************/
 /* More Details Page          */

@@ -29,11 +29,11 @@
           <section id="current-location">
 
             <!-- Johnny was working this part of the code -->
-            <input type="text" placeholder="Your current location..." spellcheck="true" required/>
+            <input id = "pac-input" type="text" placeholder="Your current location..." spellcheck="true" required/>
             <button type="submit" id="current-location-button">Get the Forecast</button>
             
             <!-- The section to display the map -->
-            <div id="display-current-map"></div>
+            <div id="map"></div>
 
             <!-- The section to display the current city weather -->
             <!-- As far as i remember, Stephen is working with this part of the code -->
@@ -57,7 +57,7 @@
         <section id="chosen-location">
           
           <!-- Johnny was working this part of the code -->
-          <input type="text" placeholder="Your chosen location..." spellcheck="true" required/>
+          <input type="choice_two" placeholder="Your chosen location..." spellcheck="true" required/>
           <button type="submit" id="chosen-location-button">Get the Forecast</button>
           
           <!-- The section to display the second map -->
@@ -76,9 +76,16 @@
         </section>
         
   </div>
+  
+  
 
 <!-- Link your .js files here -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb_UKEQuxmKcT4WyQ7VsGLrhqXyxVwW7A&libraries=places&callback=initAutocomplete"
+        async defer></script>
+
     <script type="text/javascript" src="js/navigation-menu.js"></script>
+    <script src="js/googleapi.js"></script>
+    <script src="js/googleapi2.js"></script>
 
   </body>
 </html>
