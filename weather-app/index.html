@@ -7,7 +7,7 @@
   </head>
 
 
-  <body>
+  <body onload="initAutocomplete2()">
 
 <!-- Navigation -->
   
@@ -57,7 +57,7 @@
         <section id="chosen-location">
           
           <!-- Johnny was working this part of the code -->
-          <input type="pac-input2" placeholder="Your chosen location..." spellcheck="true" required/>
+          <input id="pac-input2" placeholder="Your chosen location..." spellcheck="true" required/>
           <button type="submit" id="chosen-location-button">Get the Forecast</button>
           
           <!-- The section to display the second map -->

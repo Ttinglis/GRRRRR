@@ -1,29 +1,32 @@
+//variables to return gps coords.
+var lattitude,
+    longitude,
+    place
 
-function initAutocomplete(latitude,longitude) {
+//initiate google.map api
+function initAutocomplete(lattitude,longitude) {
     var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: -37.6878, lng: 176.1651},
       zoom: 12,
       mapTypeId: 'roadmap'
     });
 
+    //get user input data
     var input = document.getElementById('pac-input');
 
     var searchBox = new google.maps.places.SearchBox(input);
 
      // Bias the SearchBox results towards current map's viewport.
-  map.addListener('bounds_changed', function() {
+    map.addListener('bounds_changed', function() {
     searchBox.setBounds(map.getBounds());
-  });
+    });
 
-  var markers = [];
+    var markers = [];
 
   // Listen for the event fired when the user selects a prediction and retrieve
   // more details for that place.
   searchBox.addListener('places_changed', function() {
     var places = searchBox.getPlaces();
-
-    //window.alert('latttitude:  ' + lattitude + '    longitude:  ' + longitude);
-
     if (places.length == 0) {
       return;
     }
@@ -32,7 +35,7 @@ function initAutocomplete(latitude,longitude) {
     markers.forEach(function(marker) {
       marker.setMap(null);
     });
-    markers = [];
+        markers = [];
 
     // For each place, get the icon, name and location.
     var bounds = new google.maps.LatLngBounds();
@@ -41,6 +44,7 @@ function initAutocomplete(latitude,longitude) {
         console.log("Returned place contains no geometry");
         return;
       }
+
       var icon = {
         url: place.icon,
         size: new google.maps.Size(71, 71),
@@ -57,13 +61,22 @@ function initAutocomplete(latitude,longitude) {
         position: place.geometry.location
       }));
 
+      lattitude = place.geometry.location.lat(),
+      longitude = place.geometry.location.lng();
+      
+      // pop up alert to display lattitude / longitude coords
+      window.alert('latttitude:  ' + lattitude + '    longitude:  ' + longitude);
+      
       if (place.geometry.viewport) {
         // Only geocodes have viewport.
         bounds.union(place.geometry.viewport);
       } else {
         bounds.extend(place.geometry.location);
       }
+
+      return lattitude,longitude;
     });
+    
     map.fitBounds(bounds);
   });
 }
