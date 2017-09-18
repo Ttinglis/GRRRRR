@@ -61,12 +61,6 @@ function initAutocomplete(lattitude,longitude) {
         position: place.geometry.location
       }));
 
-      lattitude = place.geometry.location.lat(),
-      longitude = place.geometry.location.lng();
-      
-      // pop up alert to display lattitude / longitude coords
-      window.alert('latttitude:  ' + lattitude + '    longitude:  ' + longitude);
-      
       if (place.geometry.viewport) {
         // Only geocodes have viewport.
         bounds.union(place.geometry.viewport);
@@ -74,7 +68,6 @@ function initAutocomplete(lattitude,longitude) {
         bounds.extend(place.geometry.location);
       }
 
-      return lattitude,longitude;
     });
     
     map.fitBounds(bounds);
