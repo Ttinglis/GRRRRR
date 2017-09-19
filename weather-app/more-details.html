@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Weather App</title>
     <link href="css/main.css" type="text/css" rel="stylesheet" />   
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     
   </head>
 
@@ -33,10 +32,12 @@
         </div>
 
     </div>
-
     <!-- Link your .js files here -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/navigation-menu.js"></script>
     <script type="text/javascript" src="js/more-details.js"></script>
+    <script>if (window.module) module = window.module;</script>
 
   </body>
 </html>
